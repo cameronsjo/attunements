@@ -1,0 +1,107 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "attunements",
+  "description": "The Artificer's attuned systems. Each product has been refined until the friction disappeared.",
+  "owner": {
+    "name": "Cameron Sjo",
+    "github": "cameronsjo"
+  },
+  "plugins": [
+    {
+      "name": "auto-unraid-deploy",
+      "description": "Phone-friendly deployment pipeline for GitHub repos to Unraid — Autopilot and Checkpoint modes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/not-that-terrible-at-all.git"
+      }
+    },
+    {
+      "name": "bosun",
+      "description": "GitOps CLI for Docker Compose on bare metal — Helm for home",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/bosun.git"
+      }
+    },
+    {
+      "name": "claude-tty",
+      "description": "Phone-based server diagnostics terminal via ttyd+tmux+Claude with read-only Docker access",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/claude-tty.git"
+      }
+    },
+    {
+      "name": "feedly-summarize-to-obsidian",
+      "description": "Lambda+SQS pipeline that summarizes Feedly articles via LLM and writes to Obsidian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/feedly-summarize-to-obsidian.git"
+      }
+    },
+    {
+      "name": "llm-council",
+      "description": "Multi-LLM deliberation web app with Council and Arena debate modes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/llm-council.git"
+      }
+    },
+    {
+      "name": "mcp-server-template",
+      "description": "Production-ready MCP server template with OAuth 2.1, SQLite caching, and OpenTelemetry",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/mcp-server-template.git"
+      }
+    },
+    {
+      "name": "media-mcp",
+      "description": "MCP server enriching Obsidian vaults with book, movie, and TV metadata",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/media-mcp.git"
+      }
+    },
+    {
+      "name": "mouse-mcp",
+      "description": "Disney parks data MCP server — attraction wait times, dining info, fuzzy search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/mouse-mcp.git"
+      }
+    },
+    {
+      "name": "obaass",
+      "description": "Headless Obsidian orchestrator — obsidi-headless, obsidi-backup, and obsidi-mcp via Docker Compose",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/obaass.git"
+      }
+    },
+    {
+      "name": "obsidi-backup",
+      "description": "Vault backup sidecar — file watching, AI commit messages, restic cloud storage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/obsidi-backup.git"
+      }
+    },
+    {
+      "name": "obsidi-claude",
+      "description": "Obsidian plugin for chatting with Claude AI using the Anthropic Agent SDK",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/obsidi-claude.git"
+      }
+    },
+    {
+      "name": "obsidian-mcp",
+      "description": "Obsidian plugin exposing 28+ vault tools via MCP server with CLI bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cameronsjo/obsidi-mcp.git"
+      }
+    }
+  ]
+}
