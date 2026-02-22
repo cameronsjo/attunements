@@ -8,12 +8,10 @@ PROJECTS_DIR="${HOME}/Projects"
 
 # Format: "skill_name|project_dir|description"
 ENTRIES=(
-  "auto-unraid-deploy|auto-unraid-deploy|Phone-friendly deployment pipeline for GitHub repos to Unraid"
   "bosun|bosun|GitOps CLI for Docker Compose on bare metal"
   "claude-tty|claude-tty|Phone-based server diagnostics terminal via ttyd+tmux+Claude"
   "feedly-summarize-to-obsidian|feedly-summarize-to-obsidian|Lambda+SQS pipeline that summarizes Feedly articles via LLM"
   "llm-council|llm-council|Multi-LLM deliberation web app with Council and Arena debate modes"
-  "mcp-server-template|mcp-server-template|Production-ready MCP server template with OAuth 2.1 and OpenTelemetry"
   "media-mcp|media-mcp|MCP server enriching Obsidian vaults with book, movie, and TV metadata"
   "mouse-mcp|mouse-mcp|Disney parks data MCP server with attraction wait times and fuzzy search"
   "obaass|obaass|Headless Obsidian orchestrator via Docker Compose"

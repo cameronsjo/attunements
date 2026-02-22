@@ -8,14 +8,6 @@
   },
   "plugins": [
     {
-      "name": "auto-unraid-deploy",
-      "description": "Phone-friendly deployment pipeline for GitHub repos to Unraid — Autopilot and Checkpoint modes",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cameronsjo/not-that-terrible-at-all.git"
-      }
-    },
-    {
       "name": "bosun",
       "description": "GitOps CLI for Docker Compose on bare metal — Helm for home",
       "source": {
@@ -45,14 +37,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cameronsjo/llm-council.git"
-      }
-    },
-    {
-      "name": "mcp-server-template",
-      "description": "Production-ready MCP server template with OAuth 2.1, SQLite caching, and OpenTelemetry",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cameronsjo/mcp-server-template.git"
       }
     },
     {
